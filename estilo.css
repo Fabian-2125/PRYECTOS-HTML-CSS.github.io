@@ -1,0 +1,89 @@
+html {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2 {
+    color: rgb(18, 18, 135);
+}
+/*esto es
+un comentario
+de muchas
+lineas*/
+div p {
+color:rgba(113, 69, 180, 0.931);
+font-size: 12px;
+border-style: solid;
+border-color: rgb(119, 153, 172);
+border-radius: 3px;
+display: inline-block;
+padding: 2px;
+
+}
+/* esto es un comentario */
+form {
+    width: 50%;
+background-color: rgb(92, 162, 184);
+opacity: 0,2;
+height: 200px;
+background-image: url("fondo.png");
+background-size: 200px 200px;
+background-repeat: no-repeat;
+padding: auto;
+border: solid;
+border-color: blue;
+
+}
+a:link {
+    color:brown
+}
+a:visited {
+    color:coral
+}
+a:hover {
+    color:aqua
+}
+a:active {
+    color:blueviolet
+}
+table {
+    width: 100%;
+    border-collapse:collapse;
+}
+th,td {
+    border:solid 2px rgb(148, 152, 249);
+    padding: 5px;
+}
+th{
+    background-color: rgb(140, 91, 213);
+    color:rgb(233, 230, 227);
+    text-align:center;
+
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(183, 184, 184);
+}
+
+tr:hover {
+  background-color: rgb(21, 20, 19);
+  cursor: pointer;  
+
+}
+
+tr:hover td{
+    color: rgb(221, 152, 84);
+    cursor: pointer;  
+  }
+  span {
+    display: block;
+    background-color: aquamarine;
+    width: 300px;
+  }
+  .inline {
+    display: inline;
+  }
+  #extremo {
+    position: relative;
+    left: 50px;
+  }
