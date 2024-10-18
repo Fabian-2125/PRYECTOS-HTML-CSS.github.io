@@ -3,35 +3,44 @@ html {
     font-weight: 400;
     font-style: normal;
 }
-h2 {
-    color: rgb(18, 18, 135);
+
+#contenedor {
+    width: 600px;
+    margin: 0 auto;
+    border-style: double;
+    border-color: brown;
 }
+
 /*esto es
 un comentario
 de muchas
 lineas*/
 div p {
-color:rgba(113, 69, 180, 0.931);
-font-size: 12px;
-border-style: solid;
-border-color: rgb(119, 153, 172);
-border-radius: 3px;
-display: inline-block;
-padding: 2px;
-
+    color:rgba(113, 69, 180, 0.931);
+    font-size: 12px;
+    border-style: solid;
+    border-color: rgb(119, 153, 172);
+    border-radius: 3px;
+    display: inline-block;
+    padding: 2px;
 }
 /* esto es un comentario */
 form {
     width: 50%;
-background-color: rgb(92, 162, 184);
-opacity: 0,2;
-height: 200px;
-background-image: url("fondo.png");
-background-size: 200px 200px;
-background-repeat: no-repeat;
-padding: auto;
-border: solid;
-border-color: blue;
+    margin: 0 auto;
+    background-color: rgb(40, 178, 220);
+    opacity: 0,2;
+    height: 200px;
+    background-image: url("fondo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: solid;
+    border-width: 10px;
+    border-radius: 5px;
+    border-color: rgb(11, 156, 200);
 
 }
 a:link {
@@ -87,3 +96,11 @@ tr:hover td{
     position: relative;
     left: 50px;
   }
+  h2 {
+    background-color: darkslategrey;
+    text-align: center;
+    color: rgb(247, 246, 244);
+    font-size: 3ex;
+
+  }
+  
