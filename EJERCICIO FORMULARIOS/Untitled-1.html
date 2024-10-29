@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>TIPO DE FORMULARIOS</title>
+</head>
+<body>
+    <H1>HOJA DE INSCRIPCIÓN</H1>
+    <h1>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+ <form>   
+    <fieldset id="datosusuario">
+        <legend>Datos Usuario</legend>
+        <table>
+            <tr>
+                <td><label for="nombre">Nombre:</label></td>
+                <td><label for="Apellidos">Apellidos:</label></td>
+                <td><label for="dni">DNI:</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="nombre"></td>
+                <td><input type="text" name="apellidos"></td>
+                <td><input type="text" name="dni"></td>
+            </tr>
+            <tr>
+                <td><label for="localidad">Localidad de Nacimiento:</label></td>
+                <td><label for="privincia">Provincia:</label></td>
+                <td><label for="fecha">Fecha de Nacimiento:</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="localidad"></td>
+                <td>
+                    <select name="provincia">
+                        <option>Huelva</option>
+                        <option>Sevilla</option>
+                        <option>Càdiz</option>
+                        <option>Còrdoba</option>
+                        <option>Jaén</option>
+                        <option>Granada</option>
+                        <option>Málaga</option>
+                        <option>Almeria</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="date" name="fecha">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="direccion">Dirección:</label></td>
+                <td><label for="codpostal">Código Postal:</label></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" size="40" name="direccion">
+                </td>
+                <td>
+                    <input type="text" name="codpostal">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset id="formaacceso">
+        <legend>Forma de Acceso</legend>
+        <ul>
+            <li><input type="radio" name="modo" value="directo">Directo
+                <ul>
+                    <li><input type="radio" name="etapa" value="logse">Bachillerato log Modalidad<input type="text"></li>
+                    <li><input type="radio" name="etapa" value="experimental">Experimental</li>
+                    <li><input type="radio" name="etapa" value="cou">COU Opción <input type="text"></li>
+                    <li><input type="radio" name="etapa" value="fps">FP2</li>
+                    <li><input type="radio" name="etapa" value="otros">Otros (especificar) <input type="text"></li>
+                </ul>
+            <li>
+                <input type="radio" name="modo" value="prueba">Prueba libre
+            </li>
+        </ul>
+    </fieldset>
+    <fieldset> 
+        <legend>Documento Ajuntados</legend>
+        <table>
+            <tr>
+                <td><input type="checkbox" name="docs" value="dni">Fotocopia</td>
+                <td><input type="checkbox" name="docs" value="certificado">Certificado Académico</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="docs" value="otros">Otros documuentos (especificar)
+                    <input type="text">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <P>
+        <input type="submit" value="Enviar Solicitud">
+    </P>
+ </form>
+</body>
+</html>
